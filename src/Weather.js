@@ -96,7 +96,9 @@ export default function Weather() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Open-source code
+          <a href="https://github.com/mchan87/React-week4-homework">
+            Open-source code
+          </a>
         </a>
         by Mary Chan
       </div>
