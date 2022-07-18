@@ -13,7 +13,7 @@ export default function Weather() {
     lowtemp: 1,
   };
   return (
-    <div className="weather">
+    <div className="Weather">
       <div
         className="picture-background"
         style={{
@@ -90,7 +90,7 @@ export default function Weather() {
           </div>
         </form>
       </div>
-      <div id="source-code">
+      <div className="source-code">
         <a
           href="https://github.com/mchan87/Weather-App"
           target="_blank"
