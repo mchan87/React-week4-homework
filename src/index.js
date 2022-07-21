@@ -1,16 +1,11 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import Weather from "./Weather";
 import "bootstrap/dist/css/bootstrap.css";
 
 import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <Weather />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 const rootElement = document.getElementById("root");
